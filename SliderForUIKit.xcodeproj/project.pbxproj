@@ -11,6 +11,8 @@
 		2DC96F422B35FD1300D495DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC96F412B35FD1300D495DC /* ContentView.swift */; };
 		2DC96F442B35FD1400D495DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC96F432B35FD1400D495DC /* Assets.xcassets */; };
 		2DC96F472B35FD1400D495DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DC96F462B35FD1400D495DC /* Preview Assets.xcassets */; };
+		2DC96F4E2B35FE0300D495DC /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC96F4D2B35FE0300D495DC /* CustomButtonView.swift */; };
+		2DC96F502B36065C00D495DC /* UISliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC96F4F2B36065C00D495DC /* UISliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2DC96F412B35FD1300D495DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2DC96F432B35FD1400D495DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DC96F462B35FD1400D495DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2DC96F4D2B35FE0300D495DC /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		2DC96F4F2B36065C00D495DC /* UISliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				2DC96F3F2B35FD1300D495DC /* SliderForUIKitApp.swift */,
 				2DC96F412B35FD1300D495DC /* ContentView.swift */,
+				2DC96F4F2B36065C00D495DC /* UISliderView.swift */,
+				2DC96F4D2B35FE0300D495DC /* CustomButtonView.swift */,
 				2DC96F432B35FD1400D495DC /* Assets.xcassets */,
 				2DC96F452B35FD1400D495DC /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC96F4E2B35FE0300D495DC /* CustomButtonView.swift in Sources */,
 				2DC96F422B35FD1300D495DC /* ContentView.swift in Sources */,
+				2DC96F502B36065C00D495DC /* UISliderView.swift in Sources */,
 				2DC96F402B35FD1300D495DC /* SliderForUIKitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
