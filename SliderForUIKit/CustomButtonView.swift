@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CustomButtonView: View {
     var buttonLabel = ""
-    var backgroundButton: Color
+    var backgroundButton: LinearGradient
     let action: () -> Void
     
     
@@ -31,5 +31,5 @@ struct CustomButtonView: View {
 }
 
 //#Preview {
-//    CustomButtonView()
+//    CustomButtonView(backgroundButton: <#Color#>, action: <#() -> Void#>)
 //}

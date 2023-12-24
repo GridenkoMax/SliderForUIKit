@@ -54,7 +54,7 @@ private extension UISliderView {
         let maxDistance = 50.0
         let opacity = CGFloat((maxDistance - Double(distance)) / maxDistance)
         
-        slider.thumbTintColor = .red.withAlphaComponent(opacity)
+        slider.thumbTintColor = .black.withAlphaComponent(opacity)
     }
 }
 
